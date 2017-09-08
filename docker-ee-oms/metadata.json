@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Docker EE + Microsoft OMS",
+  "description": "Deploys Docker Enterprise Edition and all OMS Services to a Resource Group",
+  "summary": "This template deploys all the Docker EE and OMS services with additional artifacts to a Resource Group",
+  "githubUsername": "stevenfollis",
+  "dateUpdated": "2017-09-08"
+}

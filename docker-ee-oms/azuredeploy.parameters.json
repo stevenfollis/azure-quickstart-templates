@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "ddcLicense": {
+            "value": "GEN-GUID"
+        },
+        "ddcUsername": {
+            "value": "admin"
+        },
+        "ddcPassword": {
+            "value": "GEN-PASSWORD"
+        },
+        "adServicePrincipalAppID": {
+            "value": "00000000-0000-0000-0000-000000000000"
+        },
+        "adServicePrincipalAppSecret": {
+            "value": "00000000-0000-0000-0000-000000000000"
+        },
+        "enableSystemPrune": {
+            "value": "no"
+        },
+        "managerCount": {
+            "value": 3
+        },
+        "managerVMSize": {
+            "value": "Standard_D2_v2"
+        },
+        "sshPublicKey": {
+            "value": "GEN-SSH-PUB-KEY"
+        },
+        "swarmName": {
+            "value": "dockerswarm"
+        },
+        "workerCount": {
+            "value": 3
+        },
+        "workerVMSize": {
+            "value": "Standard_D2_v2"
+        },
+        "omsRecoveryVaultName": {
+            "value": "GEN-UNIQUE-10"
+        },
+        "omsRecoveryVaultRegion": {
+            "value": "West Europe"
+        },
+        "omsWorkspaceName": {
+            "value": "GEN-UNIQUE-20"
+        },
+        "omsWorkspaceRegion": {
+            "value": "West Europe"
+        },
+        "omsAutomationAccountName": {
+            "value": "GEN-UNIQUE-30"
+        },
+        "omsAutomationRegion": {
+            "value": "West Europe"
+        },
+        "azureAdminPwd": {
+            "value": "GEN-PASSWORD"
+        },
+        "azureAdmin": {
+            "value": "azureadmin"
+        },
+        "_artifactsLocation": {
+            "value": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/oms-all-deploy"
+        }
+    }
+}
